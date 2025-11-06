@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88bf1007-f700-40ff-913d-b55fa7dc2ef2" name="Changes" comment="Commit for Task 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/Items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/menu_items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/order_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/payment.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
