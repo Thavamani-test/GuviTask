@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88bf1007-f700-40ff-913d-b55fa7dc2ef2" name="Changes" comment="">
+    <list default="true" id="88bf1007-f700-40ff-913d-b55fa7dc2ef2" name="Changes" comment="Commit for Task 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/Items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/menu_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/order_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/payment.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Thavamani-test"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Thavamani-test/GuviTask",
+    "accountId": "eb749b86-64fc-49d8-8428-13f4308145b6"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Mini Project/Restaurant_Ordering/Items.py" root0="SKIP_INSPECTION" />
   </component>
@@ -75,9 +91,22 @@
       <workItem from="1762183978933" duration="5806000" />
       <workItem from="1762196889787" duration="217000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit for Task 6">
+      <option name="closed" value="true" />
+      <created>1762417586480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762417586480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit for Task 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for Task 6" />
   </component>
 </project>
