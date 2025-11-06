@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bf1007-f700-40ff-913d-b55fa7dc2ef2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/Items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/menu_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/order_management.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Project/Restaurant_Ordering/payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task 6/Problem1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task 6/Problem2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task 6/Problem3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
