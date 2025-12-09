@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bf1007-f700-40ff-913d-b55fa7dc2ef2" name="Changes" comment="Commit for Task 6">
+      <change afterPath="$PROJECT_DIR$/Task 10/Saucedemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task 10/Tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task 10/Tests/test_webpage_task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Thavamani-test"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Thavamani-test&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Thavamani-test/GuviTask",
-    "accountId": "eb749b86-64fc-49d8-8428-13f4308145b6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Thavamani-test/GuviTask&quot;,
+    &quot;accountId&quot;: &quot;eb749b86-64fc-49d8-8428-13f4308145b6&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Mini Project/Restaurant_Ordering/Items.py" root0="SKIP_INSPECTION" />
   </component>
@@ -48,6 +51,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_webpage_task.py.executor": "Run",
+    "Python.Saucedemo.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
