@@ -1,0 +1,28 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_valid_login_url_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: assert 'https://www.guvi.in/sign-in/' in 'https://www.guvi.in/'\n +  where 'https://www.guvi.in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"722d9a852382e8e0d6eb165fd3262ab1\")>.current_url\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"722d9a852382e8e0d6eb165fd3262ab1\")>\n\n    def test_valid_login_url_positive(start_browser):\n            start_browser.get(\"https://www.guvi.in/\")\n            start_browser.implicitly_wait(5)\n            start_browser.find_element(By.XPATH, \"//button[contains(@class,'tertiary-btn')]\").click()\n            print(\"Current URL of the Webpage : \", start_browser.current_url)\n>           assert \"https://www.guvi.in/sign-in/\" in start_browser.current_url\nE           assert 'https://www.guvi.in/sign-in/' in 'https://www.guvi.in/'\nE            +  where 'https://www.guvi.in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"722d9a852382e8e0d6eb165fd3262ab1\")>.current_url\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:12: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "19 Dec 2025, 02:20",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}

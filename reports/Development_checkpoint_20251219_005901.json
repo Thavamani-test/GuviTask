@@ -1,0 +1,94 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_valid_login_url_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: assert 'https://www.guvi.in/sign-in/' in 'https://www.guvi.in/'\n +  where 'https://www.guvi.in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2657b6397670c5936e00054d3da448f2\")>.current_url\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2657b6397670c5936e00054d3da448f2\")>\n\n    def test_valid_login_url_positive(start_browser):\n        start_browser.get(\"https://www.guvi.in/\")\n        start_browser.implicitly_wait(5)\n        start_browser.find_element(By.XPATH, \"//button[contains(@class,'tertiary-btn')]\").click()\n        print(\"Current URL of the Webpage : \", start_browser.current_url)\n>       assert \"https://www.guvi.in/sign-in/\" in start_browser.current_url\nE       assert 'https://www.guvi.in/sign-in/' in 'https://www.guvi.in/'\nE        +  where 'https://www.guvi.in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2657b6397670c5936e00054d3da448f2\")>.current_url\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:11: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_input_boxes_visiblity_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_function_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_url_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_credentials_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_input_boxes_visiblity_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_not_function_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "19 Dec 2025, 01:05",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}

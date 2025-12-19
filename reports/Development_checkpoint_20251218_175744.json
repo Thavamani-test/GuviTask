@@ -1,0 +1,50 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_login_url_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Setup failed: file C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py, line 6\n  def test_login_url_positive(driver):\nE       fixture 'driver' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, extra, extras, include_metadata_in_junit_xml, logger, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, save_test_result, start_browser, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nC:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py:6",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_input_boxes_visiblity_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Setup failed: file C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py, line 15\n  def test_input_boxes_visiblity_positive(driver):\nE       fixture 'driver' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, extra, extras, include_metadata_in_junit_xml, logger, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, save_test_result, start_browser, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nC:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py:15",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_function_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Setup failed: file C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py, line 25\n  def test_submit_function_positive(driver):\nE       fixture 'driver' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, extra, extras, include_metadata_in_junit_xml, logger, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, save_test_result, start_browser, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nC:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\Task 11\\Tests\\test_Guvi_LoginPage.py:25",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "18 Dec 2025, 17:57",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}

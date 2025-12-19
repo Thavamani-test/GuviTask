@@ -1,0 +1,28 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_url_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: NameError: name 'email' is not defined. Did you forget to import 'email'\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"30f463161447cfab30d1b47ca9e9b22a\")>\n\n    def test_invalid_login_url_negative(start_browser):\n                start_browser.get(\"https://www.guvi.in/\")\n                start_browser.implicitly_wait(5)\n                start_browser.find_element(By.XPATH, \"//button[contains(@class,'tertiary-btn')]\").click()\n                print(\"Current URL of the Webpage : \", start_browser.current_url)\n                assert \"https://www.guvi.in/sign-in/\" not in start_browser.current_url\n    \n                if \"/sign-in\" in start_browser.current_url:\n>                   email.clear()\n                    ^^^^^\nE                   NameError: name 'email' is not defined. Did you forget to import 'email'\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:53: NameError",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "19 Dec 2025, 09:28",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}

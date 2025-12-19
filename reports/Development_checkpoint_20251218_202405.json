@@ -1,0 +1,28 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_function_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: assert 'sign_in' in 'https://www.guvi.in/sign-in/'\n +  where 'https://www.guvi.in/sign-in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"54719618fa93f61444a4f3edf8642b8a\")>.current_url\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"54719618fa93f61444a4f3edf8642b8a\")>\n\n    def test_submit_function_positive(start_browser):\n        start_browser.get(\"https://www.guvi.in/sign-in/\")\n        start_browser.implicitly_wait(5)\n    \n        start_browser.find_element(By.CSS_SELECTOR, \"input[type='email']\").send_keys(\"thavamani.ravindran@gmail.com\")\n        start_browser.find_element(By.CSS_SELECTOR, \"input[type='password']\").send_keys(\"Profession@four4\")\n        start_browser.find_element(By.XPATH,\"//a[@class='btn login-btn']\").click()\n>       assert \"sign_in\" in start_browser.current_url\nE       assert 'sign_in' in 'https://www.guvi.in/sign-in/'\nE        +  where 'https://www.guvi.in/sign-in/' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"54719618fa93f61444a4f3edf8642b8a\")>.current_url\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:37: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "18 Dec 2025, 20:24",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}

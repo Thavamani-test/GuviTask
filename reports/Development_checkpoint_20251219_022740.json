@@ -1,0 +1,171 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_title_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_url_homepage_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_dashboard_url_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_wrong_title_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_wrong_url_homepage_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_login_invalid_username_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 10.Tests.test_webpage_task",
+          "name": "test_login_invalid_password_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_valid_login_url_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_input_boxes_visiblity_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_function_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_url_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: AssertionError: assert 'https://www....in/sign-in/' not in 'https://www...w.guvi.in%2F'\n  \n  'https://www.guvi.in/sign-in/' is contained here:\n    https://www.guvi.in/sign-in/?sourceUri=http%3A%2F%2Fwww.guvi.in%2F\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"284f22cfb79b134bfbbe5e4b3defdf9c\")>\n\n    def test_invalid_login_url_negative(start_browser):\n                start_browser.get(\"https://www.guvi.in/\")\n                start_browser.implicitly_wait(5)\n                start_browser.find_element(By.XPATH, \"//button[contains(@class,'tertiary-btn')]\").click()\n                print(\"Current URL of the Webpage : \", start_browser.current_url)\n>               assert \"https://www.guvi.in/sign-in/\" not in start_browser.current_url\nE               AssertionError: assert 'https://www....in/sign-in/' not in 'https://www...w.guvi.in%2F'\nE                 \nE                 'https://www.guvi.in/sign-in/' is contained here:\nE                   https://www.guvi.in/sign-in/?sourceUri=http%3A%2F%2Fwww.guvi.in%2F\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:50: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_credentials_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: assert 'Incorrect Email or Password' in ''\n +  where '' = <selenium.webdriver.remote.webelement.WebElement (session=\"2e8588a27f7fe6264da8bf8946ccfb0a\", element=\"f.9213A6145699B1BC4AF8F23FDD930711.d.2B8C69C5D27FB82E81F3AD72DEB12BA8.e.131\")>.text\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2e8588a27f7fe6264da8bf8946ccfb0a\")>\n\n    def test_invalid_login_credentials_negative(start_browser):\n            start_browser.get(\"https://www.guvi.in/sign-in\")\n            start_browser.implicitly_wait(5)\n            start_browser.find_element(By.CSS_SELECTOR, \"input[type='email']\").send_keys(\"abcd@gmail.com\")\n            start_browser.find_element(By.CSS_SELECTOR, \"input[type='password']\").send_keys(\"xyz@123\")\n            start_browser.find_element(By.XPATH, \"//a[@class='btn login-btn']\").click()\n    \n            #Showing Error message and\n            error_msg = start_browser.find_element(By.XPATH, \"//div[@class='invalid-feedback is-invalid']\")\n>           assert \"Incorrect Email or Password\" in error_msg.text\nE           assert 'Incorrect Email or Password' in ''\nE            +  where '' = <selenium.webdriver.remote.webelement.WebElement (session=\"2e8588a27f7fe6264da8bf8946ccfb0a\", element=\"f.9213A6145699B1BC4AF8F23FDD930711.d.2B8C69C5D27FB82E81F3AD72DEB12BA8.e.131\")>.text\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:66: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_input_boxes_visiblity_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        },
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_submit_not_function_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Passed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "19 Dec 2025, 02:31",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}
