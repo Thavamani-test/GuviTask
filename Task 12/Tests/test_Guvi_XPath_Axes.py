@@ -56,5 +56,3 @@ def test_guvi_relative_xpath_axes(start_browser):
     assert len(preceding_elements) > 0
     print(len(preceding_elements))
 
-
-
