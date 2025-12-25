@@ -50,7 +50,7 @@ def test_invalid_login_credentials_negative(start_browser):
 
         #Showing Error message and
         error_msg = start_browser.find_element(By.XPATH, "//div[@class='invalid-feedback']")
-        print("error message : ", error_msg)
+
         assert "Incorrect Email or Password" in error_msg.text
 
 # Test Case-2 Validate that the Username and Password input boxes are not visible and not enabled
