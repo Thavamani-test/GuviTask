@@ -1,0 +1,28 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 11.Tests.test_Guvi_LoginPage",
+          "name": "test_invalid_login_credentials_negative",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: assert 'Incorrect Email or Password' in ''\n +  where '' = <selenium.webdriver.remote.webelement.WebElement (session=\"c086f0978440d1af65396475541ba93b\", element=\"f.0CCD8ACC8F782C252AA0181F8D868CAC.d.5ADA60D4FCD84786952171259067FAA5.e.127\")>.text\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c086f0978440d1af65396475541ba93b\")>\n\n    def test_invalid_login_credentials_negative(start_browser):\n            start_browser.get(\"https://www.guvi.in/sign-in\")\n            start_browser.implicitly_wait(5)\n            start_browser.find_element(By.CSS_SELECTOR, \"input[type='email']\").send_keys(\"abcd@gmail.com\")\n            start_browser.find_element(By.CSS_SELECTOR, \"input[type='password']\").send_keys(\"xyz@123\")\n            start_browser.find_element(By.XPATH, \"//a[@class='btn login-btn']\").click()\n    \n            #Showing Error message and\n            error_msg = start_browser.find_element(By.XPATH, \"//div[@class='invalid-feedback']\")\n    \n>           assert \"Incorrect Email or Password\" in error_msg.text\nE           assert 'Incorrect Email or Password' in ''\nE            +  where '' = <selenium.webdriver.remote.webelement.WebElement (session=\"c086f0978440d1af65396475541ba93b\", element=\"f.0CCD8ACC8F782C252AA0181F8D868CAC.d.5ADA60D4FCD84786952171259067FAA5.e.127\")>.text\n\nTask 11\\Tests\\test_Guvi_LoginPage.py:54: AssertionError",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "01 Jan 2026, 00:28",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}
