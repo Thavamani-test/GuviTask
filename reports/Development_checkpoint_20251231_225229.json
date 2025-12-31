@@ -1,0 +1,28 @@
+{
+  "specs": {},
+  "functional_spec_count": {},
+  "testsuites": [
+    {
+      "cases": [
+        {
+          "classname": "Task 13.Tests.test_drag_drop",
+          "name": "test_drag_drop_positive",
+          "developer": "-",
+          "test_description": "",
+          "status": "Failed",
+          "logs": "<ul style='list-style-type: none; padding: 0;'></ul>",
+          "details": "Message: TypeError: presence_of_element_located() takes 1 positional argument but 2 were given\nDetails: start_browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"3e1c686eabaa28a69a7b2a624dd90a9a\")>\n\n    def test_drag_drop_positive(start_browser):\n        #launch an url\n        start_browser.get(\"https://jqueryui.com/droppable/\")\n        wait = WebDriverWait(start_browser, 10)\n    \n        #switch to iframe\n>       iframe = wait.until(EC.presence_of_element_located(By.XPATH, \"//iframe[@class='demo-frame']\"))\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       TypeError: presence_of_element_located() takes 1 positional argument but 2 were given\n\nTask 13\\Tests\\test_drag_drop.py:12: TypeError",
+          "functional_specifications": [],
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "test_environment": "Development",
+  "timestamp": "31 Dec 2025, 22:52",
+  "img_url": "https://icon.icepanel.io/Technology/svg/pytest.svg",
+  "test_status": "complete",
+  "report_title": "pytest HTML Report",
+  "category_count": {},
+  "all_categories": []
+}
